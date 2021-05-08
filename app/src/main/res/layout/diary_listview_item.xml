@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="5dp"
+    android:background="#D6E8EE">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font1"
+        android:id="@+id/dateOfDiary"
+        android:textSize="28sp"
+        android:text="Date"
+        android:background="#05427A"
+        android:gravity="left"
+        android:paddingLeft="2dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font2"
+        android:id="@+id/contentOfDiary"
+        android:maxLength="50"
+        android:textSize="20sp"
+        android:text="Content"
+        android:textColor="#05427A"
+        android:layout_below="@+id/dateOfDiary"
+        android:gravity="left"
+        android:background="#FFFFFF"
+        android:padding="2dp"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>
